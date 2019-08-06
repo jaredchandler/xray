@@ -8,17 +8,17 @@ Many of the edges on this code are rough. I hope you will find this useful.
 
 If you have questions, please contact me at jared.chandler@tufts.edu. I will do my best to help you out.
 
-# Manifest
+## Manifest
 
-xray.py :		The main program
-xray_cmd_parser.py :	Parses commands for the REPL
-settings.py :		Shares command line arguments between modules
-Agents.py :		Implements agent classes
-DirTree.py :		Converts input text format into data structure and performs symbolic execution
+	xray.py :		The main program
+	xray_cmd_parser.py :	Parses commands for the REPL
+	settings.py :		Shares command line arguments between modules
+	Agents.py :		Implements agent classes
+	DirTree.py :		Converts input text format into data structure and performs symbolic execution
 
 --------------------------------
 
-Requirements
+## Requirements
 
 	Python 2.7 
 
@@ -28,7 +28,7 @@ Requirements
 
 --------------------------------
 
-Invoke 
+## Invoke 
 
 	python2.7 xray.py --file demo/demo.txt --groups demo/dmpcgroups.txt
 
@@ -58,7 +58,7 @@ Welcome Banner
 
 --------------------------------
 
-The Prompt DEPTH
+## The Prompt DEPTH
 
 	4 > 
 
@@ -75,7 +75,7 @@ The Prompt DEPTH
 
 --------------------------------
 
-The Promp XRAY MODE
+## The Promp XRAY MODE
 
 	4 >>> 
 
@@ -94,7 +94,7 @@ The Promp XRAY MODE
 
 --------------------------------
 
-More Help
+## More Help
 
 	type 'help' to see a list of commands
 	type 'help cmdname' to get more information about each command
@@ -102,7 +102,7 @@ More Help
 
 --------------------------------
 
-Example Commands
+## Example Commands
 
 	# What can everyone find? ( Shows both true and false )
 	
@@ -135,7 +135,7 @@ Example Commands
 
 --------------------------------
 
-Semantic Permissions Supported
+## Semantic Permissions Supported
 	
 	# Can you find a location by enumerating the files in each parent directory
 
