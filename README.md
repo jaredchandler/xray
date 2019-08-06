@@ -2,9 +2,19 @@
 
 xray: a tool to help you reason about unix/linux file permissions.
 
-First, This is alpha software produced in a research setting. 
+This is alpha software produced in a research setting. 
 This was mainly intended as a proof of concept and has been debugged to about that level.
-Many of the edges on this code are rough. 
+Many of the edges on this code are rough. I hope you will find this useful.
+
+If you have questions, please contact me at jared.chandler@tufts.edu. I will do my best to help you out.
+
+# Manifest
+
+xray.py :		The main program
+xray_cmd_parser.py :	Parses commands for the REPL
+settings.py :		Shares command line arguments between modules
+Agents.py :		Implements agent classes
+DirTree.py :		Converts input text format into data structure and performs symbolic execution
 
 --------------------------------
 
@@ -12,8 +22,9 @@ Requirements
 
 	Python 2.7 
 
-	*  It may run on python 3.4  
-	** It doesn't run under python 3.7 yet
+	*   It may run on python 3.4  
+	**  It doesn't run under python 3.7 yet
+	*** I've run this with pypy for when I needed better performance. Refactoring is for the next version
 
 --------------------------------
 
