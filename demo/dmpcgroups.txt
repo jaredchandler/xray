@@ -1,0 +1,9 @@
+dwight : sales security employees
+michael : boss employees
+jim : sales employees
+oscar : accounting employees
+andy : sales
+angela : accounting employees
+toby : hr employees
+kelly : sales employees marketing
+pam : marketing employees
