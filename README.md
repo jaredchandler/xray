@@ -75,7 +75,7 @@ Welcome Banner
 
 --------------------------------
 
-## The Promp XRAY MODE
+## The Prompt XRAY MODE
 
 	4 >>> 
 
